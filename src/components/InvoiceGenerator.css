@@ -1,0 +1,16 @@
+/* Hide the invoice preview on mobile screens */
+@media (max-width: 767px) {
+    .invoice-preview {
+      display: none;
+    }
+  }
+  .wrap-text {
+    word-wrap: break-word;
+    white-space: normal;
+  }
+  .title-cell {
+    width: 200px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+  }
